@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+  background-color: #F2CD5C;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #00425A;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #00425A;
+  font-family: sans-serif;
+}
+
+.d {
+  background-image: url(images/dog.png);
+}
+
+.c {
+  background-image: url(images/cat.png);
+
+}
+
+.w {
+  background-image: url(images/wolf.png);
+
+}
+
+.e {
+  background-image: url(images/elephant.png);
+
+}
+
+.h {
+  background-image: url(images/horse.png);
+
+}
+
+.s {
+  background-image: url(images/sheep.png);
+}
+
+
+
+.set {
+  margin: 5% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  color: red;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+
+.animals {
+  outline: none;
+  font-size: 4rem;
+  font-family: Arvo;
+  color: #00425A;
+  display: inline-block;
+  border: 10px solid #00425A;
+  border-radius: 15px;
+  width: 145px;
+  height: 140px;
+  margin: 15px;
+  background-color: white;
+}
